@@ -29,3 +29,6 @@ Repositórios referentes à Entrega 1:
 - ### Demais Exigências
 - Monitoramento com Dashboard de microsserviços: Feito com Grafana
 - Documentação das APIs padrão Swagger: Feito com SpringDoc
+- **EXTRAS**: Tratamento de Erros e Caching com Redis em todos os Serviços
+- ### Como Testar
+- Foram incluídas Coleções do Thunder Client nesse repositório para testar as principais rotas dos microsserviços. Ao rodar o Serviço de Docker Compose, utilizar essas coleções para testar.
