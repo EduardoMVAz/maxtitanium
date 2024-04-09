@@ -1,0 +1,68 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Orders",
+    "dateExported": "2024-04-09T00:24:31.220Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fe992501-c7e2-40d7-bbb3-8d4a501fb4c7",
+            "colId": "8ee28737-e284-46dc-a084-2647f2eafe37",
+            "containerId": "",
+            "name": "Create Order",
+            "url": "localhost:8080/orders",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-08T19:25:30.506Z",
+            "modified": "2024-04-08T20:05:37.679Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idClient\":\"123abc\",\n  \"address\":\"Rua Quatá 200, Vila Olímpia\",\n  \"products\":[\n    {\n      \"idProduct\":\"87c38da2-322f-44c0-9c37-a36e0477e48f\",\n      \"quantity\": 12\n    }  \n  ]\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmYTk0MGIyOC0wNTU3LTQ1NzEtOTViOC03OGJmNjI1NTU3ZWYiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnk0Iiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTI2MDQxNjYsImV4cCI6MTc0NDE0MDE2Nn0.UZBmKkdJDN3NdYXX163hqwWiMtmmjtTbUfuSbrjLmhmi4uRCNQ1tBiqjFZt37OQ8y2uaIcUj2F3d4Z_9JCFJpA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "6fddb3fc-5c04-4816-a8e8-ee261a68c44d",
+            "colId": "8ee28737-e284-46dc-a084-2647f2eafe37",
+            "containerId": "",
+            "name": "Get Orders By Client",
+            "url": "localhost:8080/orders/client/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-08T20:05:29.457Z",
+            "modified": "2024-04-08T20:11:01.833Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmYTk0MGIyOC0wNTU3LTQ1NzEtOTViOC03OGJmNjI1NTU3ZWYiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnk0Iiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTI2MDQxNjYsImV4cCI6MTc0NDE0MDE2Nn0.UZBmKkdJDN3NdYXX163hqwWiMtmmjtTbUfuSbrjLmhmi4uRCNQ1tBiqjFZt37OQ8y2uaIcUj2F3d4Z_9JCFJpA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d652de6-8326-4af4-8472-5d78c9d400f2",
+            "colId": "8ee28737-e284-46dc-a084-2647f2eafe37",
+            "containerId": "",
+            "name": "Get Order",
+            "url": "localhost:8080/orders/0eb3d329-9f6f-43cb-b517-52ac5d1f15eb",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-08T20:08:06.792Z",
+            "modified": "2024-04-08T20:08:34.664Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJmYTk0MGIyOC0wNTU3LTQ1NzEtOTViOC03OGJmNjI1NTU3ZWYiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnk0Iiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTI2MDQxNjYsImV4cCI6MTc0NDE0MDE2Nn0.UZBmKkdJDN3NdYXX163hqwWiMtmmjtTbUfuSbrjLmhmi4uRCNQ1tBiqjFZt37OQ8y2uaIcUj2F3d4Z_9JCFJpA"
+            },
+            "tests": []
+        }
+    ]
+}

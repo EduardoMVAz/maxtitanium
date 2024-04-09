@@ -1,0 +1,27 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Accounts",
+    "dateExported": "2024-04-08T19:20:04.791Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "13cca38a-6898-4502-87ed-5e920a21c676",
+            "colId": "9f7c3037-8c1c-4aa6-9493-f7086d371429",
+            "containerId": "",
+            "name": "Get Account",
+            "url": "localhost:8080/accounts/9704b12e-e988-4f2e-8881-f4e37215ded5",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-05T20:43:00.169Z",
+            "modified": "2024-04-05T20:43:24.216Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNDk3MzcsImV4cCI6MTc0Mzg4NTczN30.ZFC2FVFgQ_12r9sqrOBu-EIgxBMVE7tTTNvXSf0qMNjpteHwG-_P_6Or4wEhf70TPMccEwBZA8mXrsA235aXZQ"
+            },
+            "tests": []
+        }
+    ]
+}

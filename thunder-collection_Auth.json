@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Auth",
+    "dateExported": "2024-04-08T19:19:49.936Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1b3563cb-6358-403d-928b-2fb6735f60d7",
+            "colId": "01df6e90-540f-4243-ad99-5ef065f7bdf5",
+            "containerId": "",
+            "name": "Register",
+            "url": "localhost:8080/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-05T20:41:21.760Z",
+            "modified": "2024-04-05T20:41:46.672Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"johnny3\",\n  \"email\": \"johnny3@gmail.com\",\n  \"password\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9c3ecaac-99dd-4799-9757-970bbd26f7db",
+            "colId": "01df6e90-540f-4243-ad99-5ef065f7bdf5",
+            "containerId": "",
+            "name": "Login",
+            "url": "localhost:8080/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-04-05T20:41:54.887Z",
+            "modified": "2024-04-05T20:42:17.740Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"johnny3@gmail.com\",\n  \"password\": \"123456789\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

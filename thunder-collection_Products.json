@@ -1,0 +1,143 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Products",
+    "dateExported": "2024-04-08T19:20:17.053Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f51bbf9d-5437-4da0-8e19-5d72cb89b270",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "Create Product",
+            "url": "localhost:8080/products",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-05T20:50:05.187Z",
+            "modified": "2024-04-05T20:56:59.659Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Creatina Premium\",\n  \"price\": 110.90,\n  \"description\": \"Essa creatina é igual às outras, mas você paga para se achar melhor\",\n  \"category\": \"Suplementos\",\n  \"brand\": \"GreenSups\",\n  \"stock\": 100\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNDk3MzcsImV4cCI6MTc0Mzg4NTczN30.ZFC2FVFgQ_12r9sqrOBu-EIgxBMVE7tTTNvXSf0qMNjpteHwG-_P_6Or4wEhf70TPMccEwBZA8mXrsA235aXZQ"
+            },
+            "tests": []
+        },
+        {
+            "_id": "afe15eec-391f-4249-88e7-ba2de7dfbefd",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "List All Products",
+            "url": "localhost:8080/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-05T20:50:14.568Z",
+            "modified": "2024-04-05T22:11:03.166Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNTUwNDYsImV4cCI6MTc0Mzg5MTA0Nn0.vWwaMCn9LK2V4hT3R7G9RlSRxbYNrtrjUYFgEn1tAtoXdxIESsNOMn6tHolFXk1Nbn_CKADCtOm_shW9SbSyPA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "78f24758-ec13-486d-abd6-bd43c4efd787",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "Get Product",
+            "url": "localhost:8080/products/6b54c9c7-8980-455a-9081-80ea58254288",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-05T20:50:19.648Z",
+            "modified": "2024-04-05T22:10:58.671Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNTUwNDYsImV4cCI6MTc0Mzg5MTA0Nn0.vWwaMCn9LK2V4hT3R7G9RlSRxbYNrtrjUYFgEn1tAtoXdxIESsNOMn6tHolFXk1Nbn_CKADCtOm_shW9SbSyPA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c36354c7-7948-4422-8932-94eacfa427ed",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "List Products Filter Price",
+            "url": "localhost:8080/products?min_price=40&max_price=100",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-05T20:50:28.395Z",
+            "modified": "2024-04-05T22:11:07.362Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "min_price",
+                    "value": "40",
+                    "isPath": false
+                },
+                {
+                    "name": "max_price",
+                    "value": "100",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNTUwNDYsImV4cCI6MTc0Mzg5MTA0Nn0.vWwaMCn9LK2V4hT3R7G9RlSRxbYNrtrjUYFgEn1tAtoXdxIESsNOMn6tHolFXk1Nbn_CKADCtOm_shW9SbSyPA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "22d5f82a-fcd7-4f79-a3bb-baf7bbf5aff8",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "Consume Stock",
+            "url": "localhost:8080/products/consume",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-04-05T22:01:23.322Z",
+            "modified": "2024-04-05T22:11:21.106Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"6b54c9c7-8980-455a-9081-80ea58254288\",\n  \"quantity\": 4\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNTUwNDYsImV4cCI6MTc0Mzg5MTA0Nn0.vWwaMCn9LK2V4hT3R7G9RlSRxbYNrtrjUYFgEn1tAtoXdxIESsNOMn6tHolFXk1Nbn_CKADCtOm_shW9SbSyPA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "905268d5-df60-40cf-a621-0b708fd1d7d0",
+            "colId": "cbffcde4-a6cb-4233-9140-f52984e61dd0",
+            "containerId": "",
+            "name": "Replenish Stock",
+            "url": "localhost:8080/products/replenish",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-05T22:03:29.350Z",
+            "modified": "2024-04-05T22:11:42.374Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"6b54c9c7-8980-455a-9081-80ea58254288\",\n  \"quantity\": 20\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiIxNGU4NmQwNC05M2VlLTQ3NjItOWMwYi1hMGE1NWQ0NjFlOTEiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJqb2hubnkzIiwicm9sZSI6InJlZ3VsYXIiLCJuYmYiOjE3MTIzNTQ0NDYsImV4cCI6MTc0Mzg5MDQ0Nn0.SKptZwT50_ydmFuJVZoz6uaP69mIZjwEfL0sGIT8goi1Kes0w1AiZQ1KGwwuR6jWfYRuhmi2Y2QmErlEZooZ7Q"
+            },
+            "tests": []
+        }
+    ]
+}
