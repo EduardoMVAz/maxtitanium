@@ -103,3 +103,8 @@ datasources:
 ```
 
 Por fim, importe o dashboard com ID `11378`, com o datasource do **prometheus**, e o dashboard de acompanhamento estará pronto com todos os serviços!
+
+Repositórios referentes à Entrega 2:
+---
+O setup do Jenkins referente à Entrega 2 pode ser encontrado no seguinte repositório:
+https://github.com/JoaoLucasMBC/maxtitanium.ops
